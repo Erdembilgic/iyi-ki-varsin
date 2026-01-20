@@ -1,0 +1,95 @@
+index.html
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>İyi ki Varsın</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #fff5f8, #ffeef2);
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-weight: 400;
+      color: #777;
+      margin-bottom: 40px;
+    }
+    .card {
+      background: #ffffffcc;
+      backdrop-filter: blur(4px);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+    p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+    .tulip {
+      font-size: 2rem;
+      margin: 20px 0;
+    }
+    footer {
+      margin-top: 60px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>İyi ki Varsın 🌷</h1>
+    <h2>Bu sayfa, hayatımdaki yerin için</h2>
+
+    <div class="card">
+      <div class="tulip">🌷 🌷 🌷</div>
+
+      <p>
+        Hayatta bazı insanlar vardır; kelimeler yetmez anlatmaya. Sen de onlardan birisin.
+        En yakın arkadaşım olmanın ötesinde, çoğu zaman ailem gibi oldun.
+      </p>
+
+      <p>
+        Güldüğümde yanımda, sustuğumda beni anlayan, dağıldığımda toparlayan kişi oldun.
+        Her şey yolundayken de, ortalık darmadağınıkken de hep aynı yerde durdun.
+      </p>
+
+      <div class="tulip">🌷</div>
+
+      <p>
+        Şunu bil istedim: Ne olursa olsun yanında olacağım.
+        Yorulduğunda yaslanacak bir omuz, sevindiğinde paylaşacak bir kahkaha olarak.
+      </p>
+
+      <p>
+        Bu dünya bazen fazla gürültülü ama seninle her şey biraz daha sakin,
+        biraz daha anlamlı.
+      </p>
+
+      <div class="tulip">🌷 🌷</div>
+
+      <p>
+        İyi ki hayatımdasın. İyi ki varsın.
+      </p>
+    </div>
+
+    <footer>
+      Her zaman seninleyim 🌷
+    </footer>
+  </div>
+</body>
+</html>
